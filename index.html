@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stellar Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="score-board">Score: <span id="score">0</span></div>
+        <div id="signature">Created by Stephen Colandro</div>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="background-music" src="assets/music/background.mp3" loop></audio>
+    <audio id="collect-sound" src="assets/sounds/collect.wav"></audio>
+    <audio id="collision-sound" src="assets/sounds/collision.wav"></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>
